@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+main{
+    max-width: 1440px;
+    width: 100%;
+    
+}
+header{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient( 90.06deg, rgba(49, 195, 249, 1) 0%, rgba(152, 156, 171, 1) 41.599977016448975%, rgba(2, 83, 112, 1) 100% );
+    color:white
+
+} 
+.navbar img{
+    margin-left: 5px;
+    height: 80%;
+}
+.navbar a{
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20%;
+    
+}
+.navbar li{
+    font-size: 20px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.funilaria-e-pintura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url('IMG/b-ack-10.png')
+    
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.486);
+    min-height: 326px;
+    padding: 20px;
+}
+.sec h1{
+    text-align: center;
+}
+.sepa{
+    margin-left:2% ;
+    background-color: #1e1e1e;
+    width: 1px;
+    height: 50%;
+}
+.sec p {
+    margin-left:10px ;
+    font-size: 20px;
+    width: 50%;
+}
+.nossos-servicos{
+    margin-top: 10px;
+    background: linear-gradient( 113.72deg, rgba(88, 96, 99, 1) 0%, rgba(0, 0, 0, 1) 48.34453463554382%, rgba(25, 29, 33, 1) 48.354533314704895%, rgba(246, 22, 22, 0.83) 49.43006932735443%, rgba(0, 0, 0, 1) 52.53313183784485%, rgba(0, 0, 0, 1) 100% );
+}
+.title{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+
+}
+.title h1{
+    background-color: rgba(255, 255, 255, 0.486);
+    text-align: center;
+    width: 100%;
+    height: 35%;
+    font-size: 40px;
+}
+.carros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 200px;
+    width: 100%;
+    overflow: auto;
+}
+.carros img{
+    height: 100%;
+    margin-left: 10px;
+}
+.servicos ul{
+    background-color: rgba(255, 255, 255, 0.486);
+    
+}
+.servicos li{
+    font-size: 20px;
+}
+.servicos a{
+    color:#1e1e1e;
+}
+.funilaria{
+
+    background: linear-gradient( 67.3deg, rgba(88, 96, 99, 1) 0%, rgba(25, 29, 33, 1) 33.91910195350647%, rgba(0, 0, 0, 1) 48.65446984767914%, rgba(246, 22, 22, 0.83) 50.410640239715576%, rgba(0, 0, 0, 1) 52.53313183784485%, rgba(0, 0, 0, 1) 100% );
+    
+}
+.perg{
+    display: flex;
+    align-items: end;
+    height: 50%;
+    color: white;
+}
+.perg h1{
+    width: 50%;
+    text-align: center;
+}
+.funilaria p{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.486);
+    
+}
+.funilaria img{
+    max-width: 50%;
+    max-height: 80%;
+}
+.cartaz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1024px; 
+    width: 100%;
+    background: linear-gradient( -27.66deg, rgba(131, 136, 137, 1) 0%, rgba(104, 104, 104, 1) 35.184505581855774%, rgba(0, 0, 0, 1) 48.192498087882996%, rgba(0, 0, 0, 1) 59.997618198394775%, rgba(246, 22, 22, 0.83) 61.41529679298401%, rgba(25, 29, 33, 1) 62.55384683609009%, rgba(0, 0, 0, 1) 96.19786143302917% );
+    
+}
+.personagem{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    min-height: 793px;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.486);
+    margin-top: 50px;
+}
+.circulo{
+    background: #2a638b;
+    border-radius: 50%;
+    width: 633.28px;
+    height: 633.55px;
+    margin-left: 20px;
+    
+}
+.orcamentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.konamy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.konamy h1{
+    margin-left: 5px;
+    text-align: center;
+}
+.tratar{
+    width: 50%;
+    text-align: center;
+}
+.contatos{
+    min-height: 177px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+}
+.sociais{
+    width: 300px;
+}
+.sociais h4{
+    text-align: center;
+}
+.sociais img{
+    height: 42px;
+    margin-left: 5px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.efeito{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+}
+.endereco{
+    width: 444px;
+    color: white;
+    margin-left: 40px;
+}
+.localizacao{
+    width: 285px;
+    
+}
+.maps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    border: 2px solid #2c6797;
+    border-radius: 8px;
+    
+}
+.maps img{
+    height: 30px;
+}
+.maps a{
+    color: #2c6797;
+    font-size: 20px;
+}
+@media (max-width: 1427px) {
+    .carros img {
+        height: 50%;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 1141px) {
+    
+.personagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    min-height: 793px;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.486);
+    margin-top: 50px;
+}
+.circulo {
+    background: #2a638b;
+    border-radius: 50%;
+    width: 215.28px;
+    height: 215.55px;
+    margin-left: 20px;
+}
+.circulo img{
+    height: 200px;
+}
+.contatos {
+    min-height: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sociais, .endereco{
+    margin-top: 60px;
+}
+.localizacao h3{
+    margin-top: 60px;
+}
+.endereco{
+    max-width:100% ;
+    margin-left: 0px;
+}
+}
+@media (max-width: 741px) {
+    .carros {
+        display: inline-block;
+        justify-content: center;
+        max-width: 100%;
+        overflow: none;
+        height: 400px;
+        width: 100%;
+    }
+    .carros img {
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .nossos-servicos {
+        min-height: 526px;
+        max-height: 1000px;
+        margin-top: 10px;
+        background: linear-gradient( 113.72deg, rgba(88, 96, 99, 1) 0%, rgba(0, 0, 0, 1) 48.34453463554382%, rgba(25, 29, 33, 1) 48.354533314704895%, rgba(246, 22, 22, 0.83) 49.43006932735443%, rgba(0, 0, 0, 1) 52.53313183784485%, rgba(0, 0, 0, 1) 100% );
+    }
+    
+    }
